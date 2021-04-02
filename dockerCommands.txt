@@ -1,0 +1,14 @@
+1) Remove Docker Containers
+    sudo docker container prune
+
+2) Remove Docker Images
+    sudo docker image prune -a
+
+3) Remove Docker Volumes
+    sudo docker volume prune
+
+4) Copy folder/file from local to docker
+	sudo docker cp anydir container-name:/anydir        
+
+5) Give excecutable permission to docker
+    sudo chmod 666 /var/run/docker.sock 
