@@ -8,4 +8,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo chmod +xr /home/ec2-user/docker/.docker-compose.yml.swp
 docker-compose version
 
-#run docker without sudo, ec2-user is already added into docker group
+#run docker commands without sudo, ec2-user is already added into docker group
