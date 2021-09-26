@@ -27,4 +27,4 @@ services:
 networks:
   custom_network:
     external:
-      name: codeigniter-simple-project_php-nginx 
+      name: your_network_name 
