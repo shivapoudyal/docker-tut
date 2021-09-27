@@ -9,3 +9,5 @@ sudo chmod +xr /home/ec2-user/docker/.docker-compose.yml.swp
 docker-compose version
 
 #run docker commands without sudo, ec2-user is already added into docker group
+#if permission denied run this
+#chmod 777 /var/run/docker.sock
