@@ -12,3 +12,7 @@
 
 5) Give excecutable permission to docker
     sudo chmod 666 /var/run/docker.sock 
+    
+    
+ 6) cat any file from local to container
+      docker exec -it anycontainer cat config/elasticsearch.yml
