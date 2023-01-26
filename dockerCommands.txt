@@ -16,3 +16,7 @@
     
  6) cat any file from local to container
       docker exec -it anycontainer cat config/elasticsearch.yml
+      
+      
+7) check docker image files/contents
+     docker run -it --entrypoint sh flyway:1		#this will login to image, now work with "ls", "cat" etc.
