@@ -20,3 +20,7 @@
       
 7) check docker image files/contents
      docker run -it --entrypoint sh flyway:1		#this will login to image, now work with "ls", "cat" etc.
+
+
+8) Switch Platforms in docker image build
+     docker buildx build --platform linux/amd64 -t 402605618668.dkr.ecr.us-east-1.amazonaws.com/gitlab-ci-cd-shiva:3 .
