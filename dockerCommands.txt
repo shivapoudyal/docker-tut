@@ -28,3 +28,5 @@
 9) Copy files from docker container to local
     docker exec -it <container_id> cp /etc/nginx/conf.d/default.conf .
 
+10) Build Docker with different file (other than dockerfile)
+     docker build -t nginx-homepage:1 -f filename.Dockerfile .
